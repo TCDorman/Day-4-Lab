@@ -17,8 +17,8 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
-// arr.pop()
-// console.log(arr);
+arr.pop()
+console.log(arr);
 
 
 ////////// PROBLEM 3 //////////
@@ -32,8 +32,8 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
-// for(i = 0; i < 5; i++){
-//   console.log(family[i])
+for(i = 0; i < 5; i++){
+  console.log(family[i])
 // }
 
 ////////// PROBLEM 4 //////////
@@ -48,12 +48,12 @@ let evensArr = []
 */
 
 //Code Here
-// for (i = 0; i < nums.length; i++){
-//   if(nums[i] % 2 === 0) {
-//     evensArr.push(nums[i]);
-//   }console.log(nums[i])
-// }
-//  console.log(evensArr)
+for (i = 0; i < nums.length; i++){
+  if(nums[i] % 2 === 0) {
+    evensArr.push(nums[i]);
+  }console.log(nums[i])
+}
+ console.log(evensArr)
 
 
 ////////// PROBLEM 5 //////////
@@ -67,17 +67,17 @@ var score = 69
 */
 
 //Code Here
-// if(score >= 90){
-//   console.log(`A`)
-// } else if(score <= 89 && score >= 80){
-//   console.log(`B`)
-// } else if(score <= 79 && score >= 70){
-//   console.log(`C`)
-// } else if(score <=69 && score >= 60){
-//   console.log(`D`)
-// } else if(score < 60){
-//   console.log(`F`)
-// }
+if(score >= 90){
+  console.log(`A`)
+} else if(score <= 89 && score >= 80){
+  console.log(`B`)
+} else if(score <= 79 && score >= 70){
+  console.log(`C`)
+} else if(score <=69 && score >= 60){
+  console.log(`D`)
+} else if(score < 60){
+  console.log(`F`)
+}
 
 
 
@@ -204,6 +204,15 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
-// for(let i = 0; i <= 100; i++){
-//   if(i % 3 == 0) console.log(`Dev`)
-// }
+// for(let i = 1; i <= 100; i++){
+//   if(i % 15 === 0) {
+//     console.log(`Devmountain`)
+//   } else if(i % 5 === 0){
+//     console.log(`mountain`)
+//   } else if(i % 3 === 0){
+//     console.log(`Dev`)
+//   } else {
+//       console.log(i)
+//     }
+//   }
+ 
